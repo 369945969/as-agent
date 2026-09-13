@@ -1,0 +1,7 @@
+.agentscope/
+target/
+dependency-reduced-pom.xml
+# sqlite artifacts (DB lives under .agentscope/, but guard anywhere else too)
+*.db
+*.db-wal
+*.db-shm
