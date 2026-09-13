@@ -14,14 +14,11 @@ if errorlevel 1 goto :error
 
 echo.^
 echo Push succeeded.
-goto :end
+pause
+exit /b 0
 
 :error
 echo.
 echo Error occurred. Push aborted.
+pause
 exit /b 1
-
-:end
-exit /b 0
-
-cmd
